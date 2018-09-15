@@ -1,0 +1,7 @@
+{
+  "name": "shift-mobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
