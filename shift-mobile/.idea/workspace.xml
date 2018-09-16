@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a625cd47-b5a0-46a7-9d59-be561fee45de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionic.starter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@~ipadpro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@~ipadpro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~universal~anyany.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tabs/tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tabs/tabs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2037000053">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="scss" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="SCSS" value="1" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TsLintLanguageService" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="91" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/home/home.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shift-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shift-mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shift-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shift-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shift-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shift-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shift-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shift-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a625cd47-b5a0-46a7-9d59-be561fee45de" name="Default Changelist" comment="" />
+      <created>1537055985317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537055985317</updated>
+      <workItem from="1537055986530" duration="1264000" />
+      <workItem from="1537057309471" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1295000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980973" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/readiband-app/2.0/src/pages/planner/planner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="115" column="30" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/home/home.scss" />
+    <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts" />
+    <entry file="file://$PROJECT_DIR$/src/pages/home/home.html" />
+  </component>
+</project>
