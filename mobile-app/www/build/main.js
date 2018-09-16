@@ -81,6 +81,8 @@ var LogIn = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(193);
+throw new Error("Cannot find module \"firebase\"");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_firebase_config__ = __webpack_require__(274);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -93,10 +95,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var HomePage = /** @class */ (function () {
     function HomePage(navCtrl, camera) {
         this.navCtrl = navCtrl;
         this.camera = camera;
+        Object(__WEBPACK_IMPORTED_MODULE_3_firebase__["initializeApp"])(__WEBPACK_IMPORTED_MODULE_4__app_firebase_config__["a" /* FIREBASE_CONFIG */]);
     }
     HomePage.prototype.takePhoto = function () {
         var _this = this;
@@ -109,7 +114,9 @@ var HomePage = /** @class */ (function () {
         this.camera.getPicture(options).then(function (imageData) {
             // imageData is either a base64 encoded string or a file URI
             // If it's base64 (DATA_URL):
-            _this.myphoto = 'data:image/jpeg;base64,' + imageData;
+            _this.myphoto = "data:image/jpeg;base64," + imageData;
+            var pictures = Object(__WEBPACK_IMPORTED_MODULE_3_firebase__["storage"])().ref('pictures');
+            pictures.putString(_this.myphoto, 'data_url');
         }, function (err) {
             // Handle error
         });
@@ -118,9 +125,10 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/Users/anlinpanda/Documents/GitHub/Lumohacks2018/mobile-app/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>\n      Project Shift\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <button ion-button (click)="takePhoto()">Take Photo</button>\n    <p><img src="{{ myphoto }}"></p>\n</ion-content>\n'/*ion-inline-end:"/Users/anlinpanda/Documents/GitHub/Lumohacks2018/mobile-app/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]) === "function" && _b || Object])
     ], HomePage);
     return HomePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -253,6 +261,23 @@ var MyApp = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 274:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FIREBASE_CONFIG; });
+var FIREBASE_CONFIG = {
+    apiKey: "AIzaSyB_PX7KEbos9jqbkExry4H6q81EaCEV4wM",
+    authDomain: "shift-7ceab.firebaseapp.com",
+    databaseURL: "https://shift-7ceab.firebaseio.com",
+    projectId: "shift-7ceab",
+    storageBucket: "shift-7ceab.appspot.com",
+    messagingSenderId: "1032454189095"
+};
+//# sourceMappingURL=firebase.config.js.map
 
 /***/ })
 
