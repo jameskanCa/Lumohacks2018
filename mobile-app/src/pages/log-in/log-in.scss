@@ -1,0 +1,80 @@
+
+
+.bottom-centre {
+    margin:auto;
+    padding:0%;
+    position: absolute;
+    bottom: 5%; left: 0; right: 0;
+}
+
+.round-button:hover {
+    background: #262626;
+}
+
+ion-content {
+    background-image: url("https://www.dealfuel.com/wp-content/uploads/2015/06/color191.png");
+}
+
+.logo {
+    position: relative;
+}
+
+.submit-btn {
+    background: #51CFB1;
+    border-radius: 30px !important;
+    border: 1px solid #ffffff;
+  }
+
+.register-btn {
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+ion-item {
+    border-radius: 30px !important;
+    padding-left: 30px !important;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-bottom: 0px !important;
+    box-shadow: none !important;
+}
+
+.signup-col {
+  margin: 0px 16px 0px 16px;
+  padding-bottom: 20px;
+}
+
+.item-inner {
+  border-bottom-color: #ffffff !important;
+  box-shadow: none !important;
+}
+.login-content {
+    background: #56CA96;
+}
+ 
+.logo-row {
+      padding-top: 50px;
+      padding-bottom: 20px;
+}
+ 
+.login-box {
+      background: #399F8B;
+      position: absolute;
+      bottom: 15%; left: 0; right: 0; top: 45%;
+}
+ 
+ion-row {
+       align-items: center;
+       text-align: center;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.grid {
+    top:75%;
+}
+     
